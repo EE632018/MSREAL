@@ -1,0 +1,1 @@
+cmd_/root/MSREAL/fifo/driver/fifo.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /root/MSREAL/fifo/driver/fifo.ko /root/MSREAL/fifo/driver/fifo.o /root/MSREAL/fifo/driver/fifo.mod.o ;  true
